@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+#this is a apoptosis gene dataset, we can use the genes on this file to subset the merged csv
 apopcand = pd.read_csv('Apo_Mutations.tar.gz', error_bad_lines=False)
 print(apopcand)
 apopcand.to_csv('apopcand.csv')
